@@ -1,6 +1,6 @@
 import Foundation
 
-//pragma mark - strip slashes
+// MARK:- strip slashes
 open class FileHelper {
 open static func stripSlashIfNeeded(_ stringWithPossibleSlash:String) -> String {
     var stringWithoutSlash:String = stringWithPossibleSlash
