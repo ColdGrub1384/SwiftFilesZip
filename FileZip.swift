@@ -115,7 +115,7 @@ open class FileZip {
         
     }
     
-    //pragma mark - strip slashes
+    // MARK: - strip slashes
     
     fileprivate static func stripSlashIfNeeded(_ stringWithPossibleSlash:String) -> String {
         var stringWithoutSlash:String = stringWithPossibleSlash
